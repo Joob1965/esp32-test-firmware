@@ -94,12 +94,14 @@ and the [Tasmota device template](https://templates.blakadder.com/shelly_plus_1.
 
 Select `esp32cam` in PlatformIO and build/upload as described above. The camera
 stream stays at `http://<camera-ip>/stream` on port 80; the settings page is at
-`http://<camera-ip>:81/`.
+`http://<camera-ip>:81/`. Building this environment also copies the firmware to
+`firmware/ESP32_CAM.bin` for use with the Android companion app.
 
 ## JTAG debugging with ESP-Prog
 
 The regular `esp32cam` environment keeps serial flashing unchanged. The separate
 `esp32cam-debug` environment enables source-level debugging through ESP-Prog:
+its output is kept separate as `firmware/ESP32_CAM_DEBUG.bin`.
 
 ```powershell
 pio debug -e esp32cam-debug
