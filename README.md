@@ -27,6 +27,8 @@ name to the CLI:
 | `esp32c3` | ESP32-C3 DevKitM-1 | Web config, GPIO, ADC, MQTT, OTA, serial |
 | `esp32c6` | ESP32-C6 DevKitC-1 | Web config, GPIO, ADC, MQTT, OTA, serial |
 | `shelly-plus-1` | Shelly Plus 1 (ESP32) | Relay GPIO26, external switch GPIO4, button GPIO25, status LED GPIO0, raw ADC GPIO32 |
+| `shelly-plus-1-mini` | Shelly Plus 1 Mini (ESP32-C3) | Relay GPIO7, switch GPIO10, button GPIO1, status LED GPIO0 |
+| `shelly-plus-1pm-mini` | Shelly Plus 1PM Mini (ESP32-C3) | Relay GPIO5, switch GPIO10, raw ADC GPIO3 |
 | `sonoff-dual-r3` | Sonoff Dual R3 (ESP32) | Two relays GPIO27/GPIO14, button GPIO0, switches GPIO32/GPIO33, status LED GPIO13 |
 | `sonoff-dual-r3-lite` | Sonoff Dual R3 Lite (ESP32) | Two relays GPIO27/GPIO14, button GPIO0, switches GPIO32/GPIO33, status LED GPIO13 |
 
@@ -44,6 +46,11 @@ provide calibrated temperature protection for the onboard NTC. Do not use it
 to control mains loads until the exact hardware revision, safety behavior,
 and installation method have been verified. Some Shelly firmware versions
 also restrict OTA flashing.
+
+The Shelly Mini and Sonoff Dual R3 profiles use published community pin maps.
+Their relay outputs, power-meter interfaces, and mains safety have not been
+hardware-tested. The web interface is German; firmware setup and error
+messages are also shown in German where applicable.
 
 In VS Code, choose the matching environment in the PlatformIO project tasks
 before building or uploading. The profiles are compiled separately; select the

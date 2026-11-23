@@ -17,8 +17,14 @@ This project contains three kinds of targets:
 | `Shelly_Plus_1.bin` | Compile-verified | Relay pin map present; NTC not calibrated; mains device |
 | `Shelly_Plus_1_Mini.bin` | Compile-verified | Relay pin map present; NTC not implemented as a temperature sensor |
 | `Shelly_Plus_1PM_Mini.bin` | Compile-verified | Relay pin map present; BL0942 meter not implemented |
+| `Shelly_Plus_1_Mini.bin` | Compile-verified | Relay, external switch, button, and LED pins from community pin map |
 | `Sonoff_Dual_R3.bin` | Compile-verified | Dual relay and switches present; CSE7761/BL0939 meter not implemented |
 | `Sonoff_Dual_R3_Lite.bin` | Compile-verified | Dual relay and switches present |
+
+These binaries are not hardware-validated. The Shelly 1PM Mini temperature
+input is currently raw ADC only; neither its power meter nor calibrated
+over-temperature protection is implemented. Do not rely on these builds for
+mains safety or energy metering.
 
 ## Safety
 

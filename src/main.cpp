@@ -306,7 +306,7 @@ bool inputChanged(DebouncedInput& input) {
 
 void handleDeviceInputs() {
 #if FEATURE_GPIO && GPIO_SWITCH_INPUT >= 0 && GPIO_OUTPUT_1 >= 0
-  if (inputChanged(switchInput)) {
+  if (inputChanged(switchInput) && switchInput.stableState) {
     writeGpio(GPIO_OUTPUT_1, !gpioState1);
     publishGpioState();
   }
@@ -341,7 +341,7 @@ String gpioControlsHtml() {
     if (pin < 0 || (index == 1 && pin == pins[0])) {
       continue;
     }
-    html += "<form class=\"row\" method=\"post\" action=\"/gpio\"><b>GPIO ";
+    html += "<form class=\"row\" method=\"post\" action=\"/gpio\"><b>Ausgang GPIO ";
     html += String(pin);
     html += states[index] ? " — EIN</b>" : " — AUS</b>";
     html += "<input type=\"hidden\" name=\"pin\" value=\"";
@@ -352,7 +352,7 @@ String gpioControlsHtml() {
   }
 #endif
   if (html.length() == 0) {
-    html = "<p>Für dieses Profil sind keine GPIO-Ausgänge konfiguriert.</p>";
+    html = "<p>Für dieses Profil sind keine Schaltausgänge konfiguriert.</p>";
   }
   return html;
 }
@@ -389,7 +389,7 @@ String configPage() {
   page += F(
       "<!doctype html><html lang=\"de\"><head><meta charset=\"utf-8\">"
       "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
-      "<title>ESP32 Firmware</title><style>"
+      "<title>ESP32-Gerätefirmware</title><style>"
       "body{font:16px system-ui,sans-serif;max-width:760px;margin:2rem auto;"
       "padding:0 1rem;color:#172033;background:#f4f6fa}"
       "h1{color:#174a7e}.card{background:white;padding:1rem;margin:1rem 0;"
@@ -401,9 +401,9 @@ String configPage() {
       "color:white;border:0}img.preview{display:block;width:100%;"
       "max-width:640px;margin-top:1rem;background:#222}"
       ".muted{color:#56637a;font-size:.9rem}</style></head><body>"
-      "<h1>ESP32 Firmware</h1><p class=\"muted\">Gerät: ");
+      "<h1>ESP32-Gerätefirmware</h1><p class=\"muted\">Gerät: ");
   page += htmlEscape(devicePrefix());
-  page += F("</p><section class=\"card\"><h2>Status</h2><p>");
+  page += F("</p><section class=\"card\"><h2>Gerätestatus</h2><p>");
   if (WiFi.status() == WL_CONNECTED) {
     page += "WLAN verbunden — ";
     page += WiFi.localIP().toString();
@@ -413,21 +413,21 @@ String configPage() {
   } else {
     page += "WLAN nicht verbunden";
   }
-  page += "</p><p>MQTT: ";
+  page += "</p><p>MQTT-Verbindung: ";
 #if FEATURE_MQTT
-  page += mqttClient.connected() ? "verbunden" : "nicht verbunden/aus";
+  page += mqttClient.connected() ? "verbunden" : "nicht verbunden";
 #else
   page += "in diesem Profil deaktiviert";
 #endif
   page += "</p>";
 #if FEATURE_SENSORS && SENSOR_ADC_PIN >= 0
-  page += "<p>ADC GPIO ";
+  page += "<p>Analogeingang GPIO ";
   page += String(SENSOR_ADC_PIN);
   page += ": ";
   page += String(analogRead(SENSOR_ADC_PIN));
   page += "</p>";
 #endif
-  page += F("</section><section class=\"card\"><h2>GPIO-Ausgänge</h2>");
+  page += F("</section><section class=\"card\"><h2>Schaltausgänge</h2>");
   page += gpioControlsHtml();
   page += F("</section>");
   page += cameraControlsHtml();
@@ -457,7 +457,8 @@ String configPage() {
             "placeholder=\"leer = unverändert\"></label>");
 #endif
 #if FEATURE_OTA
-  page += F("<h3>OTA-Update</h3><label>OTA-Passwort<input name=\"otaPass\" "
+  page += F("<h3>Firmware-Update über WLAN (OTA)</h3>"
+            "<label>OTA-Passwort<input name=\"otaPass\" "
             "type=\"password\" autocomplete=\"new-password\" "
             "placeholder=\"leer = unverändert\"></label>");
 #endif
