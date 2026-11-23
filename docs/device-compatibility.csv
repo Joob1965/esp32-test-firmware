@@ -1,0 +1,76 @@
+family,device_or_fragment,source_status,firmware_status
+Athom,Aldi RGBCCT LED-Einbauleuchte – DIY-AustauschSmart-Al2017-RGB-TGTSAUArlec IP44 wetterfester Außenstecker mit Stromüberwachung – SelbstaustauschPC44HAAUAthom-VorhangmodulKM01-TAS,listed in pasted ESPHome inventory,no device-specific firmware build
+Athom,Athom 16A AU V3 SteckerPG05V3-AU10A-TAS-1AUAthom 16A UK V3 SteckerPG04V3-UK16A-TASVereinigtes KönigreichAthom 16A US V3 SteckerPG03V3-US16A-TASUSAthom 3-Wege-Mini-Relais-SchaltmodulRS01C3,listed in pasted ESPHome inventory,no device-specific firmware build
+Athom,Athom 2-Kanal-Neigungs-/Selbstverriegelungs-SchaltermodulR02,listed in pasted ESPHome inventory,no device-specific firmware build
+Athom,Athom 4-Kanal-Nipp-/Selbstverriegelungs-10A-SchaltmodulR04,listed in pasted ESPHome inventory,no device-specific firmware build
+Athom,Athom 8-Kanal-Intervall-/Selbstverriegelungs-10A-RelaisplatineR08,listed in pasted ESPHome inventory,no device-specific firmware build
+Athom,Athom EM2 EnergiezählerEM2,listed in pasted ESPHome inventory,no device-specific firmware build
+Athom,Athom EM6 EnergiezählerEM6,listed in pasted ESPHome inventory,no device-specific firmware build
+Athom,Athom ESP32 Ethernet Zigbee GatewayZG01,listed in pasted ESPHome inventory,no device-specific firmware build
+Athom,Athom ESP32 Musikcontroller für RGBIC-LEDsLS8P-WLED,listed in pasted ESPHome inventory,no device-specific firmware build
+Athom,Athom ESP32C3 12W RGBCCT-GlühbirneLB01-12W-E27E27Athom Plug V3 SteckerPG01V3EUAubess 15W E27 RGBCCT-Glühbirne – DIY-AustauschE27Aubess Universal-IR-Fernbedienung – DIY-AustauschZN371630,listed in pasted ESPHome inventory,no device-specific firmware build
+Everything Presence,Everything Presence Lite PräsenzsensorEPL,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony 128-Kanal-Controller-EntwicklungsboardKC868-A128,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony 16-Kanal-RelaisplatineKC868-A16,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony 32-Kanal-MOSFET-RelaisplatineKC868-A32M,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony 6-Kanal-RelaisplatineKC868-A6,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony 64-Kanal-Controller-EntwicklungsboardKC868-A64,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony 8-Kanal-RelaisplatineKC868-A8,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony ESP32 433MHz RF- und IR-ControllerKC868-AG,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony ESP32 4G 2-Kanal-RelaisplatineKC868-A2,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony ESP32 Ethernet RS485 4G GSM RelaisplatineKC868-A8S,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony ESP32 SD-Karte DS3231 RTC-Sensor-RelaisplatineKC868-ASR,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony Ethernet 16-Kanal-RelaisplatineKC868-A16S,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony Ethernet 32-Kanal-RelaisplatineKC868-A32,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony Ethernet CAN Bus 8-Kanal-RelaisplatineKC868-A8M,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony Ethernet IO Erweiterungsplatine AdapterplatineKC868-AM,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony GSM 4-Kanal-RelaisplatineKC868-A4S,listed in pasted ESPHome inventory,no device-specific firmware build
+KinCony,KinCony IR+RF 4-Kanal-RelaisplatineKC868-A4,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack Atom Lite ESP32 EntwicklungsboardC008,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack AtomS3 Lite ESP32 EntwicklungsboardC124,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack AtomU USB-A ESP32 EntwicklungsboardK051,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack Core2 DisplayK010,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack CoreS3 DisplayK128,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack ESP32CAM Kameramodul OV2640 KameraU007,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack M5Stamp C3 ModulK056,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack M5Stamp C3U ModulK122,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack M5Stamp Pico-ModulK051,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack M5StampS3 ModulS007,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack M5Stick DisplayK016,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack M5StickC DisplayK016-C,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack NanoC6 Dev Kit EntwicklungsboardC125,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack PSRAM Timer Kamera (OV3660) KameraU082,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack Tough DisplayK034,listed in pasted ESPHome inventory,no device-specific firmware build
+M5Stack,M5Stack Unit CamS3 OV2640 KameraU174,listed in pasted ESPHome inventory,no device-specific firmware build
+Nous,Mysa V1 Elektrischer Sockelheizungs-Thermostat1.3.3USNous 1-Kanal-SchaltmodulB1TEUNous 2-Kanal-SchaltmodulB2TEUNous 2-Kanal-/Vorhangstromüberwachungs-SchaltmodulB3TEUNous A6T Intelligente Steckdose mit Stromüberwachung für den AußenbereichA6TEUNous A8T 10A StromüberwachungssteckerA8TEUNous DIN Smart Switch 16A DIN-RelaisD1TEUNous DIN Smart Switch 20A DIN RelaisD2TEUNous DIN Smart Switch 25A DIN RelaisD3TEUODROID-GO Spielset-DisplayG152875062626,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly 1PM Gen4 Schaltmodul1PM_Gen4EUShelly 2PM Gen4 SchaltmodulS4SW-002P16EU,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Dimmer 0/1-10V PM Gen3 Dimmermodul,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Plus 0-10V Dimmer-ModulSNDM-00100WW,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Plus 1 Mini-SchaltermodulSNPM-001X8EU,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Plus 1 SchaltermodulSNSW-001X16EU,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Plus 1PM LeistungsüberwachungsschaltermodulSNSW-001P16EU,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Plus 1PM Mini-SchaltermodulSNSW-001P8EU,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Plus 2PM SchaltmodulSNSW-002P16EU,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Plus PM Mini-EnergiezählerSNPM-001PCEU16,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Plus Plug S Power Monitoring PlugPlusPlugSEUShelly Plus Stecker UK StromüberwachungssteckerPlusPlugUKVereinigtes KönigreichShelly Pro 1 DIN RelaisPRO1,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Plus Zusatz-TemperatursensorSHELLYPLUSADDON,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Plus i4 SchaltermodulSNSN-0024X,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Pro 1PM DIN-RelaisPRO1PM,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Pro 2 DIN RelaisPRO2,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Pro 2PM DIN-RelaisPRO2PM,listed in pasted ESPHome inventory,no device-specific firmware build
+Shelly,Shelly Pro 3 Relais3800235268094EUSilicognition wESP32 Entwicklungsboard,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff BASICR4 SchaltmodulBASICR4,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff Dual R3 LeistungsüberwachungsschaltermodulDUALR3,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff Dual R3 Lite SchaltermodulDUALR3L,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff Dual R3 v2 StromüberwachungsschaltermodulDUALR3,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff Mini Extreme SchaltermodulMINIR4,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff NSPanel Touch-Display-SchalterE32-MSW-NXEUUSASonoff POW Elite 16A LeistungsüberwachungsschaltermodulPOWR316D,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff POW Elite 20A Leistungsüberwachungs-SchaltmodulPOWR320D,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff POW Origin 16A Leistungsüberwachungs-SchaltmodulPOWR316,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff Smart Stackable Power Meter DIN RelaySPM,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff SwitchMan M5-1C 1-fach SchalterESP32D0-MSW-T5EUVereinigtes KönigreichSonoff SwitchMan M5-2C 2-fach SchalterESP32D0-MSW-T5EUVereinigtes KönigreichSonoff SwitchMan M5-3C 3-fach SchalterESP32D0-MSW-T5EUVereinigtes KönigreichSonoff TH Elite 16A Temperatur- und Feuchtigkeitsüberwachungs-SchaltmodulTHR316D,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff TH Elite 20A Temperatur- und Feuchtigkeitsüberwachungs-SchaltmodulTHR320D,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff TH Origin 16A SchaltmodulTHR316,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff TH Origin 20A SchaltmodulTHR320,listed in pasted ESPHome inventory,no device-specific firmware build
+Sonoff,Sonoff TX Ultimate 1-Gang-SchalterT5-1C-86EUSonoff TX Ultimate 2-fach SchalterT5-2C-86EUSonoff TX Ultimate 3-fach SchalterT5-3C-86EUSonoff TX Ultimate 4-fach SchalterT5-4C-86EUSonoff TX Ultimate US 1-Gang-SchalterT5-1C-120USSonoff TX Ultimate US 2-Gang-SchalterT5-2C-120EUSonoff TX Ultimate US 3-fach SchalterT5-3C-120EUSonoff TX Ultimate US 4-fach SchalterT5-4C-120EUSonoff ZBBridge Pro Zigbee GatewayZBBridge-P,listed in pasted ESPHome inventory,no device-specific firmware build
+SwitchBot,SwitchBot Color 10W 800lm RGBCCT-LampeW1401400E26SwitchBot Stecker Mini-SteckerW1901400USSwitchBot Plug Mini Homekit PlugW2001401JPTCP Smart 9W 806lm RGBCCT-Lampe – DIY-AustauschTCALA60B2OWW15RGBCCTB22Tuya 4-Gang-Schalter – DIY-ErsatzZ6HS-L4DVereinigtes KönigreichTuya 9W High CRI CCT Drehspot-Einbaustrahler - DIY-AustauschSD002,listed in pasted ESPHome inventory,no device-specific firmware build

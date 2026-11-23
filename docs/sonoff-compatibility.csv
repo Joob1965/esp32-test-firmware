@@ -1,0 +1,12 @@
+model,id,family,known_gpios,firmware_scope,meter_or_sensor,blocker,status
+Sonoff Dual R3,DUALR3,ESP32,GPIO27/GPIO14/GPIO32/GPIO33/GPIO0/GPIO13,partial/basic relays and switch inputs,v1.x: CSE7761; v2.x: BL0939,pin map from ESPHome; power meter not implemented,compile-verified only
+Sonoff Dual R3 Lite,DUALR3L,ESP32,GPIO27/GPIO14/GPIO32/GPIO33/GPIO0/GPIO13,basic relays and switch inputs,none,pin map from ESPHome,compile-verified only
+Sonoff Dual R3 v2,DUALR3,ESP32,GPIO27/GPIO14/GPIO32/GPIO33/GPIO0/GPIO13,not built separately,BL0939 via UART GPIO25/GPIO26,revision-specific meter support not implemented,blocked pending hardware
+Sonoff Mini Extreme,MINIR4,ESP32-C3 likely,unknown,unknown,none,exact pin map and flash layout pending,not built
+Sonoff NSPanel Touch,E32-MSW-NX,ESP32,touch/display pins unknown,unknown,none,exact latest-revision pin map pending,not built
+Sonoff POW Elite 16A,POWR316D,ESP32,unknown,relay/current/voltage,BL0942 or CSE?,exact latest-revision meter IC and pins pending,not built
+Sonoff POW Elite 20A,POWR320D,ESP32,unknown,relay/current/voltage,revision-specific meter,exact latest-revision meter IC and pins pending,not built
+Sonoff POW Origin 16A,POWR316,ESP32,unknown,relay/current/voltage,CSE?,exact latest-revision meter IC and pins pending,not built
+Sonoff Smart Stackable Power Meter,SPM,ESP32,unknown,multi-channel power metering,proprietary IC/bus,exact latest-revision interfaces pending,not built
+Sonoff SwitchMan M5 1C/2C/3C,ESP32D0-MSW-T5,ESP32,unknown,touch switches,none,EU/UK variants need separate pin maps,not built
+Sonoff TH Elite 16A/20A,THR316D/THR320D,ESP32,unknown,relay/temp/humidity,DS18B20/Si7021 variant,exact latest-revision pins pending,not built
